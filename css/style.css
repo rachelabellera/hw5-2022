@@ -50,9 +50,11 @@ Step 4: Edit the css for the nav_links class to use flex to match our example. D
 Step 5: Style the links so that they have the same color even after they have been visited. This is a “challenge” problem. You should not give or receive help when completing it.
 
 is it ok to do it this way/do i need to use inherit?
+
+does the links mean nav links or all links including skip to main content?
 */
 
-.nav_links a:visited{
+a:visited{
     color: blue;
 }
 
@@ -270,6 +272,8 @@ Char:👍	Dec:128077	Hex:1F44D
 /* 
 Questions:
 1. Step 5 (nav_links): Do I need to use inherit?
+    1(a). Does "style the links" mean nav links or all links including skip to main content?
+
 2. Mobile View (.gallery): Is it ok that it looks like that in mobile view but when I stretch it
 to 720 px it looks like the screenshot?
 3. Step 13: Is it ok to do it this way and use body as a parent selector? Are you grading us on our code?
